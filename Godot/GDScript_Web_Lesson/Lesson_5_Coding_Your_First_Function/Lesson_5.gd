@@ -37,3 +37,33 @@ func draw_three_lines():
     move_forward(100)
     jump(-100,50)
     move_forward(100)
+
+#practice-1.) A function to Draw Square
+func draw_square():
+	move_forward(200)
+	turn_right(90)
+	move_forward(200)
+	turn_right(90)
+	move_forward(200)
+	turn_right(90)
+	move_forward(200)
+	turn_right(90)
+
+#practice-2.) Drawing Multiple Squares
+func draw_square():
+	move_forward(200)
+	turn_right(90)
+	move_forward(200)
+	turn_right(90)
+	move_forward(200)
+	turn_right(90)
+	move_forward(200)
+	turn_right(90)
+
+func draw_three_squares():
+	draw_square()
+	jump(300,300)
+	draw_square()
+	jump(300,300)
+	draw_square()
+	
