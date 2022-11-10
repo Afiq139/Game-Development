@@ -43,7 +43,30 @@ func draw_corner(length):
 	move_forward(length)
 
 
-#Practice 2
+#Practice 2 - Using Multiple Parameters
+func draw_corner(length, angle):
+	move_forward(length)
+	turn_right(angle)
+	move_forward(length)
 
-#Practice 3
-#Practice 4
+#Practice 3 - Drawing Squares of Any size
+func draw_square(length):
+	move_forward(length)
+	turn_right(90)
+	move_forward(length)
+	turn_right(90)
+	move_forward(length)
+	turn_right(90)
+	move_forward(length)
+	turn_right(90)
+
+#Practice 4- Drawing Rectangles of Any Size
+func draw_rectangle(length, height):
+	move_forward(length)
+	turn_right(90)
+	move_forward(height)
+	turn_right(90)
+	move_forward(length)
+	turn_right(90)
+	move_forward(height)
+	turn_right(90)
