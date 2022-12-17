@@ -12,40 +12,32 @@
 
 #Example 1:
 
-func run():
-    var health = 5
-    health = health - 1
-    print(health)
+func take_damage(amount):
+    health -= amount
 
-#Example 2 - Defining a variable:
+func take_damage(amount):
+    health += amount
 
-var health
-var health # error
+# health -= amount
+# health = health - amount
+
+# health += amount
+# health = health + amount
+
+#Practice 1 - Damaging The robot:
 var health = 100
+var amount = 50
 
-func run():
-    var health = 100
-    print(health)
-
-func run():
-    var health = 100
-    health = 50
-    print(health)
+func take_damage(amount):
+	health -=amount
+	print(health)
 
 
-#Example 3 - About the print function:
+#Practice 2 - Healing the robot:
 
-func run():
-    print("Hey there!")
+var health = 50
+var amount = 50
 
-
-#Example 4 - Variables are like labels:
-
-func run():
-    var health = 100
-    health = "This is some text"
-    print(health) # This is some text
-
-
-#Practice 1 - Define A Health Variable:
-var health = 100
+func heal(amount):
+	health  += amount
+	print(health)
