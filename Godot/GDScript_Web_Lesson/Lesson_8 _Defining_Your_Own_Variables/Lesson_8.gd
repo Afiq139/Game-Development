@@ -10,5 +10,42 @@
 #  2*pi radians = 360 degrees
 # pi radians = 180 degrees
 
+#Example 1:
 
-	
+func run():
+    var health = 5
+    health = health - 1
+    print(health)
+
+#Example 2 - Defining a variable:
+
+var health
+var health # error
+var health = 100
+
+func run():
+    var health = 100
+    print(health)
+
+func run():
+    var health = 100
+    health = 50
+    print(health)
+
+
+#Example 3 - About the print function:
+
+func run():
+    print("Hey there!")
+
+
+#Example 4 - Variables are like labels:
+
+func run():
+    var health = 100
+    health = "This is some text"
+    print(health) # This is some text
+
+
+#Practice 1 - Define A Health Variable:
+var health = 100
