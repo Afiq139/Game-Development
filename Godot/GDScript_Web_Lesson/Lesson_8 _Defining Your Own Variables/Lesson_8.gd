@@ -10,21 +10,5 @@
 #  2*pi radians = 360 degrees
 # pi radians = 180 degrees
 
-#Practice 1 - Drawing a rectangle at a previse position
-func run():
-	position.x = 120
-	position.y = 100
-	draw_rectangle(200, 120)
 
-#Practice 2 - Draw squares at different positions
-func run():
-	position.x = 100
-	position.y = 100
-	draw_rectangle(100,100)
-	position.x = 300
-	position.y = 300
-	draw_rectangle(100,100)
-	position.x = 500
-	position.y = 500
-	draw_rectangle(100,100)
 	
