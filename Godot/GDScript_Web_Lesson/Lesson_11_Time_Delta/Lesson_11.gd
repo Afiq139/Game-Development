@@ -17,7 +17,7 @@ func _process(delta):
 # Delta is the time it took Godot to complete the previous frame in seconds.
 # It's very small because frames happen many times a second.
 # It varies each frame because Godot needs to process more or less each frame.
-
+# delta -- time-dependent, no delta- frame-dependent
 
 #Practice 1 - Rotating A Character Continiously:
 func _process(delta):
