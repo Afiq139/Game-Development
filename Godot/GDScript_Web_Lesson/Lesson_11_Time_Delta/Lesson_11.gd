@@ -19,11 +19,11 @@ func _process(delta):
 # It varies each frame because Godot needs to process more or less each frame.
 # delta -- time-dependent, no delta- frame-dependent
 
-#Practice 1 - Rotating A Character Continiously:
+#Practice 1 - Rotating Using Delta
 func _process(delta):
-	rotate(0.05)
+	rotate(2 * delta)
 
-#Practice 2 - Creating Circular Movement:
+#Practice 2 - Moving in A circle Using Delta
 func _process(delta):
-	rotate(0.05)
-	move_local_x(5)
+	rotate(2 * delta)
+	move_local_x(100 * delta)
