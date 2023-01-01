@@ -14,9 +14,9 @@
 func _process(delta):
 	rotate(0.05)
 
-# The _process() function takes one parameter: delta.
-# It won't do anything until we add something to it. 
-# Other game engines might use different names like _update().
+# Delta is the time it took Godot to complete the previous frame in seconds.
+# It's very small because frames happen many times a second.
+# It varies each frame because Godot needs to process more or less each frame.
 
 
 #Practice 1 - Rotating A Character Continiously:
