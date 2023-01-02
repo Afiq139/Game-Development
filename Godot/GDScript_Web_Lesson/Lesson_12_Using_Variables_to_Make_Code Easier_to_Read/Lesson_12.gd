@@ -12,7 +12,12 @@
 
 #Example 1:
 func _process(delta):
-	rotate(0.05)
+	rotate(4 * delta) # 4 radians per second
+
+----------
+rotate(2) # Rotate 2 radians.
+move_local_x(100) # Move horizontally 100 pixels.
+move_local_y(-200) # Move vertically -200 pixels.
 
 # Delta is the time it took Godot to complete the previous frame in seconds.
 # It's very small because frames happen many times a second.
