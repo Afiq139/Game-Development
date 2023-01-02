@@ -19,6 +19,12 @@ rotate(2) # Rotate 2 radians.
 move_local_x(100) # Move horizontally 100 pixels.
 move_local_y(-200) # Move vertically -200 pixels.
 
+---------
+var angular_speed = 4 # This variable is defined outside of the function
+
+func _process(delta):
+	rotate(angular_speed * delta)
+
 # Delta is the time it took Godot to complete the previous frame in seconds.
 # It's very small because frames happen many times a second.
 # It varies each frame because Godot needs to process more or less each frame.
