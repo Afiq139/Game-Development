@@ -32,7 +32,7 @@ func _process(delta):
 	rotate(angular_speed * delta)
 
 func set_angular_speed(new_angular_speed):
-	angular_speed = new_angular_speed
+	angular_speed = new_angular_speed #error
 
 ---------
 
