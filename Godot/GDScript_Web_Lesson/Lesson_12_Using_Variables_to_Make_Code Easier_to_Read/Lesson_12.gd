@@ -35,7 +35,16 @@ func set_angular_speed(new_angular_speed):
 	angular_speed = new_angular_speed #error
 
 ---------
+# variables to control movement
+var horizontal_speed = 200
+var jump_strength = 150
+var gravity = 90
 
+# variables for combat
+var health = 40
+var health_maximum = 80
+var attack_power = 10
+var defense = 4
 
 
 # Delta is the time it took Godot to complete the previous frame in seconds.
@@ -43,11 +52,7 @@ func set_angular_speed(new_angular_speed):
 # It varies each frame because Godot needs to process more or less each frame.
 # delta -- time-dependent, no delta- frame-dependent
 
-#Practice 1 - Rotating Using Delta
-func _process(delta):
-	rotate(2 * delta)
+#Practice 1 - Clarifying code using variables
 
-#Practice 2 - Moving in A circle Using Delta
-func _process(delta):
-	rotate(2 * delta)
-	move_local_x(100 * delta)
+
+#Practice 2 - Fixing An Out Of Scope Error
