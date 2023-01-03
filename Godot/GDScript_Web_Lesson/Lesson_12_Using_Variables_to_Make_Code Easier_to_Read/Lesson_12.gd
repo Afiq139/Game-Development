@@ -12,7 +12,7 @@
 
 #Example 1:
 func _process(delta):
-	rotate(4 * delta) # 4 radians per second
+	rotate(4 * delta) # 4 radians per second, means how fast it is
 
 ----------
 rotate(2) # Rotate 2 radians.
