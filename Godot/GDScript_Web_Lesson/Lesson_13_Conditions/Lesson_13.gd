@@ -11,8 +11,35 @@
 # pi radians = 180 degrees
 
 #Example 1:
+func heal(amount):
+	if health += amount
+	if health > 100:
+		health = 100
+
+#Example 2 - Comparisons
+	if health > 100:  #if health is greater than 100
+		pass
+	
+	if health < 50:   #if health is less than 50
+		pass
+	
+	if health == 25:  #if health is equal to 25
+		pass
+	
+	if health != 7:	  #if health is not equal to 7
+		pass
 
 
+#Example 3 - Or else...
+
+	func run():
+		var speed = 120
+		if speed < 100:
+			print("You're slow!")
+		else:
+			print("you're fast!")
+
+			
 #Practice 1 - Clarifying code using variables
 
 var angular_speed = 4
