@@ -39,20 +39,9 @@ func heal(amount):
 		else:
 			print("you're fast!")
 
-			
-#Practice 1 - Clarifying code using variables
 
-var angular_speed = 4
+#Practice 1 - Using comparison
 
-func _process(delta):
-	rotate(angular_speed * delta)
+#Practice 2 - Limiting Healing
 
-#Practice 2 - Fixing An Out Of Scope Error
-
-var angular_speed = 4
-
-func _process(delta):
-	rotate(angular_speed * delta)
-
-func set_angular_speed(new_angular_speed):
-	angular_speed = new_angular_speed
+#Practice 3 - Preventing Health From Going Below Zero
