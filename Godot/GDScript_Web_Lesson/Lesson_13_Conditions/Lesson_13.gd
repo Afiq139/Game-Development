@@ -56,8 +56,14 @@ func run():
 
 	if health != 7:
 		print("health is not equal to seven.")
-		
+
 
 #Practice 2 - Limiting Healing
+
+func heal(amount):
+	health += amount
+	
+	if health > 80:
+		health = 80
 
 #Practice 3 - Preventing Health From Going Below Zero
