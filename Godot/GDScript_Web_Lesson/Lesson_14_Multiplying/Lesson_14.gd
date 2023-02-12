@@ -12,13 +12,41 @@
 
 #Example 1:
 
-#Example 2 
+	var level = 1
+
+	func level_up():
+		level += 1
 
 
-#Example 3 
+#Example 2:
+	var health = 100
+	var max_health = 100
+	var power = 5
+	var defense = 2
 
 
+#Example 3:
+    var health = 100
+	var max_health = 100
 
+	func heal(amount):
+		health += amount
+
+		if health > max_health:
+			health = max_health
+
+#Example 4:
+	func level_up():
+		level += 1
+		max_health += 5
+
+#Example 5:
+	var level = 1
+	var max_health = 100
+
+	func level_up():
+	level += 1
+	max_health *= 1.1
 
 #Practice 1 
 
