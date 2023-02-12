@@ -67,3 +67,15 @@ func heal(amount):
 		health = 80
 
 #Practice 3 - Preventing Health From Going Below Zero
+
+func take_damage(amount):
+	
+    #decrease health by the received amount
+	health -= amount
+	
+	#reset the health to 0 when the health value goes below zero
+	if health < 0:
+		health = 0
+		
+	print(health)
+	
