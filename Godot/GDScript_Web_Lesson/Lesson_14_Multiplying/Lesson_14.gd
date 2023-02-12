@@ -50,11 +50,29 @@
 
 #Practice 1 - Increase Maximum Health Exponentially
 
+var level = 1
+var max_health = 100
+
+func level_up():
+	level += 1
+	max_health = max_health * 1.1
 
 
 
 #Practice 2 - Reducing Damage at Higher Levels
 
+var level = 3
+var health = 100
+var max_health = 100
 
+func take_damage(amount):
+	if level > 2:
+		amount *= 0.5
+		
+	health -= amount
+
+	if health < 0:
+		health = 0
+	
 
 	
