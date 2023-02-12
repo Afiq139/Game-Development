@@ -42,6 +42,22 @@ func heal(amount):
 
 #Practice 1 - Using comparison
 
+func run():
+	var health = 100
+
+	if health > 5:
+		print("health is greater than five.")
+
+	if 1 < health:
+		print("One is less than health.")
+
+	if health == health:
+		print("health is equal to health")
+
+	if health != 7:
+		print("health is not equal to seven.")
+		
+
 #Practice 2 - Limiting Healing
 
 #Practice 3 - Preventing Health From Going Below Zero
