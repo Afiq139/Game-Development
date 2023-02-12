@@ -48,15 +48,13 @@
 	level += 1
 	max_health *= 1.1
 
-#Practice 1 
+#Practice 1 - Increase Maximum Health Exponentially
 
 
 
 
-#Practice 2 
+#Practice 2 - Reducing Damage at Higher Levels
 
 
-
-#Practice 3 
 
 	
