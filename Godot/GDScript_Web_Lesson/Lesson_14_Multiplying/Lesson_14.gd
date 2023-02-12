@@ -11,71 +11,24 @@
 # pi radians = 180 degrees
 
 #Example 1:
-func heal(amount):
-	if health += amount
-	if health > 100:
-		health = 100
 
-#Example 2 - Comparisons
-	if health > 100:  #if health is greater than 100
-		pass
-	
-	if health < 50:   #if health is less than 50
-		pass
-	
-	if health == 25:  #if health is equal to 25
-		pass
-	
-	if health != 7:	  #if health is not equal to 7
-		pass
+#Example 2 
 
 
-#Example 3 - Or else...
-
-	func run():
-		var speed = 120
-		if speed < 100:
-			print("You're slow!")
-		else:
-			print("you're fast!")
+#Example 3 
 
 
-#Practice 1 - Using comparison
-
-func run():
-	var health = 100
-
-	if health > 5:
-		print("health is greater than five.")
-
-	if 1 < health:
-		print("One is less than health.")
-
-	if health == health:
-		print("health is equal to health")
-
-	if health != 7:
-		print("health is not equal to seven.")
 
 
-#Practice 2 - Limiting Healing
+#Practice 1 
 
-func heal(amount):
-	health += amount
-	
-	if health > 80:
-		health = 80
 
-#Practice 3 - Preventing Health From Going Below Zero
 
-func take_damage(amount):
-	
-    #decrease health by the received amount
-	health -= amount
-	
-	#reset the health to 0 when the health value goes below zero
-	if health < 0:
-		health = 0
-		
-	print(health)
+
+#Practice 2 
+
+
+
+#Practice 3 
+
 	
