@@ -50,11 +50,27 @@ func roll_dice(sides):
 #This should give you a different result each time the function is called, within the desired range.
 
 
+#Practice 3 - Bonus Health Every Other Level
 
-#Practice 3 - Rolling Dice
+func level_up():
+    level += 1
 
+    if level % 2 == 0:
+        max_health += 5
+    
+    if level == 4:
+        max_health = 125
+    
+    pass 
 
+#The code you provided defines a function called level_up in GDScript, which increments the value of the level variable by 1, and then performs some conditional statements based on the new value of level.
 
-	
+#The first if statement checks if the value of level is even by using the modulo operator % and checking if the result is equal to 0. If it is, the max_health variable is increased by 5.
+
+#The second if statement checks if the value of level is equal to 4. If it is, the max_health variable is set to 125.
+
+#Finally, the pass statement does nothing and is used to explicitly indicate that this block of code should do nothing.
+
+#Note: This code assumes that the variables level, max_health, and pass have been declared elsewhere in the code.
 
 	
