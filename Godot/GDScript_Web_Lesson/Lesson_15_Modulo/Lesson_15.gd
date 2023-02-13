@@ -28,10 +28,16 @@
 #Example 5:
 
 
-#Practice 1 - Increase Maximum Health Exponentially
+#Practice 1 - Advancing Traffic Lights
 
+func advance_traffic_light():
 
+    #First, Increment light_index by adding 1 to it
+    light_index += 1
 
+    #There're three lights, so use the modulo operation
+    #use light_index = light_index % 3 or light_index %= 3 to wrap light_index back to 0
+    light_index %= 3
 
 
 #Practice 2 - Reducing Damage at Higher Levels
