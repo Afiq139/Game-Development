@@ -40,7 +40,18 @@ func advance_traffic_light():
     light_index %= 3
 
 
-#Practice 2 - Reducing Damage at Higher Levels
+#Practice 2 - Rolling Dice
+
+func roll_dice(sides):
+    return randi() % sides + 1
+
+#The solution you provided func roll_dice(sides): return randi() % sides + 1 generates a random number in the desired range of 1 to sides. The randi() function generates a random integer, and the % sides operation calculates the remainder when the result is divided by sides, effectively limiting the range of the result to 0 to sides - 1. Adding 1 to the result extends the range to 1 to sides.
+
+#This should give you a different result each time the function is called, within the desired range.
+
+
+
+#Practice 3 - Rolling Dice
 
 
 
