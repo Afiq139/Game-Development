@@ -63,6 +63,13 @@ func level_up():
     
     pass 
 
+#other solution:
+func level_up():
+	level += 1
+	max_health += 5
+	if level % 2 == 0:
+		max_health += 5
+
 #The code you provided defines a function called level_up in GDScript, which increments the value of the level variable by 1, and then performs some conditional statements based on the new value of level.
 
 #The first if statement checks if the value of level is even by using the modulo operator % and checking if the result is equal to 0. If it is, the max_health variable is increased by 5.
@@ -73,4 +80,3 @@ func level_up():
 
 #Note: This code assumes that the variables level, max_health, and pass have been declared elsewhere in the code.
 
-	
