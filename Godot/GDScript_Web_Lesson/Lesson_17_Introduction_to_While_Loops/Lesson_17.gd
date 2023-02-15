@@ -28,20 +28,13 @@
 #Example 5:
 
 
-#Practice 1 - Increasing scale using vectors
+#Practice 1 - Moving to the end of a board
 
-func level_up():
-    level += 1
-    max_health += 1.1
-
-    scale += Vector2(0.2 , 0.2)
+func move_to_bottom():
+    while cell.y < board_size.y - 1:
+        cell.y +=1
 
 
 
-#Practice 2 - Resetting size and position using vectors
-
-func reset_robot():
-    scale = Vector2(1.0 , 1.0)
-    position = Vector2(0, 0)
 
 
