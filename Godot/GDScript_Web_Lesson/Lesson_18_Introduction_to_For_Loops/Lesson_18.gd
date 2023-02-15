@@ -28,13 +28,22 @@
 #Example 5:
 
 
-#Practice 1 - Moving to the end of a board
+#Practice 1 - Using a for loop to move to the end of the board
 
 func move_to_bottom():
-    while cell.y < board_size.y - 1:
-        cell.y +=1
+    for number in range(board_size.y-1):
+        cell.y += 1
+    
+    # or
+    # for number in range(board_size.y - 1):
+        cell += Vector2(0, 1)
 
 
+#Practice 2 - Improving code with a for loop
 
+func run():
+    for number in range(3):
+        jump(200,0)
+        draw_rectangle(100,100)
 
 
