@@ -36,7 +36,7 @@ func move_to_bottom():
     
     # or
     # for number in range(board_size.y - 1):
-        cell += Vector2(0, 1)
+    #    cell += Vector2(0, 1)
 
 
 #Practice 2 - Improving code with a for loop
