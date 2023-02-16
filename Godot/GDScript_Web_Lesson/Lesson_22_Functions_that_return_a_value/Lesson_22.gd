@@ -28,16 +28,4 @@
 #Example 5:
 
 
-#Practice 1 - creating string variables
-func run():
-    robot_name = "Shafiq"
-
-
-
-#Practice 2 - Using an array of strings to play a combo
-func run():
-    combo = ["jab", "jab", 'uppercut']
-
-    for action in combo:
-        play_animation(action)
-
+#Practice 1 - Converting coordinates from the grid to the screen
