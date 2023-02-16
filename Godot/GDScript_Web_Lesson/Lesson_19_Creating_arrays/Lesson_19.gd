@@ -28,22 +28,17 @@
 #Example 5:
 
 
-#Practice 1 - Using a for loop to move to the end of the board
+#Practice 1 - Walking To The Robot
 
-func move_to_bottom():
-    for number in range(board_size.y-1):
-        cell.y += 1
-    
-    # or
-    # for number in range(board_size.y - 1):
-    #    cell += Vector2(0, 1)
+var turtle_path = [ Vector2(1, 0),  Vector2(1, 1),  Vector2(2, 1),  Vector2(3, 1),  Vector2(4, 1), Vector2(5, 1),  Vector2(5, 2),  Vector2(5, 3)]
 
 
-#Practice 2 - Improving code with a for loop
+
+#Practice 2 - Selecting units
 
 func run():
-    for number in range(3):
-        jump(200,0)
-        draw_rectangle(100,100)
+    select_units([
+        Vector2(0, 3), Vector2(1, 0), Vector2(4, 2), Vector2(5, 1)
+    ])
 
 
