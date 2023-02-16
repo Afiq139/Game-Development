@@ -28,17 +28,21 @@
 #Example 5:
 
 
-#Practice 1 - Walking To The Robot
+#Practice 1 - Move Along the path
 
-var turtle_path = [ Vector2(1, 0),  Vector2(1, 1),  Vector2(2, 1),  Vector2(3, 1),  Vector2(4, 1), Vector2(5, 1),  Vector2(5, 2),  Vector2(5, 3)]
-
-
-
-#Practice 2 - Selecting units
+var robot_path = [Vector2(1, 0),Vector2(1, 1), Vector2(1, 2), Vector2(2, 2), Vector2(3, 2), Vector2(4, 2), Vector2(5, 2)]
 
 func run():
-    select_units([
-        Vector2(0, 3), Vector2(1, 0), Vector2(4, 2), Vector2(5, 1)
-    ])
+    for cell in robot_path:
+        robot.move_to(cell)
 
 
+
+#Practice 2 - Back to the Drawing Board
+
+var rectangle_sizes = [Vector2(200, 120), Vector2(140, 80), Vector2(80, 140), Vector2(200, 140)]
+
+func run():
+    for cube in rectangle_sizes:
+        draw_rectangle(cube.x, cube.y)
+        jump(250, 0)
