@@ -28,23 +28,18 @@
 #Example 5:
 
 
-#Practice 1 - Using The Right Items
+#Practice 1 - Creating An inventory Using A Dictionary
 
-var inventory = []
+var inventory = {
+    "healing heart": 3,
+    "gems": 9,
+    "sword": 1
+}
 
-func pick_items():
-    use_item(inventory[0])
-    use_item(inventory[3])
 
+#Practice 2 - Increasing item counts
 
-#Practice 2 - Realigning the train tracks
-
-var track []
-
-func fix_tracks():
-    align(tracks[-1])
-    align(tracks[-3])
-    align(tracks[-4])
-
+func add_item(item_name, amount):
+    inventory[item_name] += amount
 
 
