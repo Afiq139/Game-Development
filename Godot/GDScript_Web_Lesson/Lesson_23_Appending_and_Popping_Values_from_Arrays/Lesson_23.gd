@@ -49,3 +49,10 @@ var crates = ["healing heart", "shield", "gems", "sword"]
 func run():
     while crates.size() > 0:
         var crate = crates.pop_back()
+
+
+# var crates = ["healing heart", "shield", "gems", "sword"]
+
+# func run():
+#     while crates:
+#         crates.pop_back()
