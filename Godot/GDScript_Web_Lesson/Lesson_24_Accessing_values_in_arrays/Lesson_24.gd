@@ -28,31 +28,23 @@
 #Example 5:
 
 
-#Practice 1 - Completing orders
+#Practice 1 - Using The Right Items
 
-var waiting_orders: = []
-var completed_orders: = []
+var inventory = []
 
-#func add_order(meal_name):
-#   waiting_orders.append(meal_name)
-
-func complete_current_order():
-    var first_order = waiting_orders.pop_front()
-
-    completed_orders.append(first_order)
+func pick_items():
+    use_item(inventory[0])
+    use_item(inventory[3])
 
 
-#Practice 2 - Clearing up the crates
+#Practice 2 - Realigning the train tracks
 
-var crates = ["healing heart", "shield", "gems", "sword"]
+var track []
 
-func run():
-    while crates.size() > 0:
-        var crate = crates.pop_back()
+func fix_tracks():
+    align(tracks[-1])
+    align(tracks[-3])
+    align(tracks[-4])
 
 
-# var crates = ["healing heart", "shield", "gems", "sword"]
 
-# func run():
-#     while crates:
-#         crates.pop_back()
