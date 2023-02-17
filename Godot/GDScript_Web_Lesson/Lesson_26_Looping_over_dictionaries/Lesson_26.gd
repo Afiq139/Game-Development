@@ -30,16 +30,11 @@
 
 #Practice 1 - Creating An inventory Using A Dictionary
 
-var inventory = {
-    "healing heart": 3,
-    "gems": 9,
-    "sword": 1
-}
+
 
 
 #Practice 2 - Increasing item counts
 
-func add_item(item_name, amount):
-    inventory[item_name] += amount
+
 
 
