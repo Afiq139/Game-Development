@@ -28,13 +28,32 @@
 #Example 5:
 
 
-#Practice 1 - Creating An inventory Using A Dictionary
+#Practice 1 - Displaying the inventory
+
+var inventory :={
+    "healing heart": 3,
+    "gems": 5,
+    "sword":1,
+}
+
+func run():
+    for item_name in inventory:
+        var item_count = inventory(item_name)
+        display_item(item_name, item_count)
 
 
+#Practice 2 - Placing units on the board
 
+var units = {
+    vector2(1, 0): "robots",
+    vector2(2, 2): "turtle",
+    vector2(1, 0): "robot",
+}
 
-#Practice 2 - Increasing item counts
-
+func run():
+    for cell in units:
+        var unit = units(cell)
+        place_unit(cell, unit)
 
 
 
