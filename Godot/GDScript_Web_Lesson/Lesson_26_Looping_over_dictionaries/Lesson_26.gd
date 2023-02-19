@@ -45,7 +45,7 @@ func run():
 #Practice 2 - Placing units on the board
 
 var units = {
-    vector2(1, 0): "robots",
+    vector2(1, 0): "robot",
     vector2(2, 2): "turtle",
     vector2(1, 0): "robot",
 }
