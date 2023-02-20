@@ -28,22 +28,21 @@
 #Example 5:
 
 
-#Practice 1 - Displaying the player's health and energy
-
-var energy = 80
-
-func run():
-    display_energy(str(energy))
 
 
+#Practice 1 - Add the correct type hints to variables
 
-#Practice 2 - Letting the player type numbers
+var vector: vector2 = Vector2(1, 1)
+var text: String = "Hello, World"
+var whole_number: int = 4
+var decimal_number: float = 3.14
 
 
-var player_input = ""
-var item_count = 0
 
-func buy_selected_item():
-    player_input = get_player_input()
-    item_count = int(player_input)
+#Practice 2 - Fix the values to match the type hints
 
+
+var whole_number: int = 4
+var text: String = "Hello World!"
+var vector: Vector2 = Vector2()
+var decimal_number: float = 3.14
